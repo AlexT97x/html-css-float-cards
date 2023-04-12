@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(255, 0, 190);
+}
+
+.conteiner{
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.testo-centrale{
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    float: left;
+}
+
+p{
+    margin-bottom: 2.5em;
+}
+
+.contenuto{
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+    box-shadow: 0px 0px 5px 3px black;
+}
+
+.team{
+    float: left;
+    width: 100px;
+}
+
+.contenuto::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.testo{
+    padding: 20px;
+    float: right;
+    width: calc(100% - 100px);
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+.funzione{
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    padding-top: 20px;
+}
